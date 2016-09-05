@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F9B58101D7D9E3C000312DA /* 2333.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B580F1D7D9E3C000312DA /* 2333.m */; settings = {ASSET_TAGS = (); }; };
+		3F9B58131D7D9EEA000312DA /* 9987.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B58121D7D9EEA000312DA /* 9987.m */; settings = {ASSET_TAGS = (); }; };
 		3FB8312C1D7D9D96009AE3E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8312B1D7D9D96009AE3E5 /* main.m */; };
 		3FB8312F1D7D9D96009AE3E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB8312E1D7D9D96009AE3E5 /* AppDelegate.m */; };
 		3FB831321D7D9D96009AE3E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB831311D7D9D96009AE3E5 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F9B580E1D7D9E3C000312DA /* 2333.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 2333.h; sourceTree = "<group>"; };
+		3F9B580F1D7D9E3C000312DA /* 2333.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 2333.m; sourceTree = "<group>"; };
+		3F9B58111D7D9EEA000312DA /* 9987.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 9987.h; sourceTree = "<group>"; };
+		3F9B58121D7D9EEA000312DA /* 9987.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 9987.m; sourceTree = "<group>"; };
 		3FB831271D7D9D96009AE3E5 /* 111222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 111222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB8312B1D7D9D96009AE3E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3FB8312D1D7D9D96009AE3E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,8 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				3FB8312D1D7D9D96009AE3E5 /* AppDelegate.h */,
+				3F9B580E1D7D9E3C000312DA /* 2333.h */,
+				3F9B580F1D7D9E3C000312DA /* 2333.m */,
 				3FB8312E1D7D9D96009AE3E5 /* AppDelegate.m */,
 				3FB831301D7D9D96009AE3E5 /* ViewController.h */,
+				3F9B58111D7D9EEA000312DA /* 9987.h */,
+				3F9B58121D7D9EEA000312DA /* 9987.m */,
 				3FB831311D7D9D96009AE3E5 /* ViewController.m */,
 				3FB831411D7D9DAA009AE3E5 /* 123.h */,
 				3FB831421D7D9DAA009AE3E5 /* 123.m */,
@@ -154,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9B58101D7D9E3C000312DA /* 2333.m in Sources */,
 				3FB831321D7D9D96009AE3E5 /* ViewController.m in Sources */,
 				3FB8312F1D7D9D96009AE3E5 /* AppDelegate.m in Sources */,
 				3FB831431D7D9DAA009AE3E5 /* 123.m in Sources */,
+				3F9B58131D7D9EEA000312DA /* 9987.m in Sources */,
 				3FB8312C1D7D9D96009AE3E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +318,7 @@
 				3FB831401D7D9D96009AE3E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
